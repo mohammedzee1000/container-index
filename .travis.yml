@@ -1,0 +1,4 @@
+language: python
+python: 
+  - "2.7"
+script: git clone https://github.com/mohammedzee1000/container-pipeline-service.git && cd container-pipeline-service && git checkout 2016-12-21_11-56-40-hack_networkx && cd test-index && python setup_basic.py && python __init__.py -i ../../index.d
